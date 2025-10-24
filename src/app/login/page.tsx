@@ -1,4 +1,5 @@
 import FloatingLabelInput from '@/components/FloatingLabelInput';
+import './styles.css';
 
 const Login = () => {
     return (
@@ -11,10 +12,11 @@ const Login = () => {
                     id='password'
                     labelText='Password'
                 />
-                <div className='btnGroup' style={{ marginTop: '-0.3rem' }}>
-                    <button className='btn'>Cancel</button>
-                    <button className='btn btn-primary'>Login</button>
-                </div>
+                <button className='btn btn-primary w-full'>Continue</button>
+                {/* <p className='text-center mt-5'>Or</p> */}
+                <button className='btn createAccountButton'>
+                    Create new account
+                </button>
             </form>
         </div>
     );

@@ -7,7 +7,7 @@ export default function Home() {
             <h2 className='homePageSubheading'>
                 Manage your schedules, meals, and household
             </h2>
-            <button className='btn'>Get started</button>
+            <button className='btn btn-primary'>Get started</button>
         </div>
     );
 }

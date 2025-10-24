@@ -1,7 +1,0 @@
-.createAccountButton {
-    width: calc(100% - var(--horizontal-margin) * 2);
-    position: absolute;
-    bottom: 1rem;
-    left: var(--horizontal-margin);
-    right: var(--horizontal-margin);
-}

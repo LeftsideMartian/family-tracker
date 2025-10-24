@@ -8,7 +8,7 @@ const Header = () => {
                 <div>
                     <HeaderLogo />
                 </div>
-                <button className='getStartedButton'>Get Started</button>
+                <button className='btn'>Login</button>
             </nav>
 
             <hr className='headerLine' />
